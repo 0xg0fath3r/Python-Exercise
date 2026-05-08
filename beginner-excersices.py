@@ -26,9 +26,20 @@ ladybugs = 20
 
 total = butterflies + beetles + ladybugs
 
-print('I caught ' + str(butterflies) + ' 🦋 butterflies!')
-print('I caught ' + str(beetles) + ' 🪲 beetles!')
-print('I caught ' + str(ladybugs) + ' 🐞 ladybugs!')
+print('I caught ' + str(butterflies) + ' butterflies!')
+print('I caught ' + str(beetles) + ' beetles!')
+print('I caught ' + str(ladybugs) + ' ladybugs!')
 
 print('I caught ' + str(total) + ' total bugs!')
+
+
+#4. Calculate interest rate from balance
+
+balance = int(input("Enter your balance: "))
+rate = int(input("Enter interest rate: "))
+
+new_balance = balance + (balance * rate)
+
+print(new_balance)
+
 

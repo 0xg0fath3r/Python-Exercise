@@ -43,3 +43,14 @@ new_balance = balance + (balance * rate)
 print(new_balance)
 
 
+#5. To calculate the ph_level:
+
+ph = int(input("Enter a value between 0 and 14: "))
+
+if ph > 7:
+  print("Basic")
+elif ph < 7:
+  print("Acidic")
+else:
+  print("Neutral")
+

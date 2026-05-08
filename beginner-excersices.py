@@ -58,7 +58,6 @@ else:
 
 # Magic 8 ball:
 
-# Write code below 💖
 import random
 
 question = input("Question: ")
